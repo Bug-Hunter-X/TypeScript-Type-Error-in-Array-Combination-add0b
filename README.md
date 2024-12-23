@@ -1,0 +1,2 @@
+# TypeScript Type Error in Array Combination
+This example demonstrates a common TypeScript type error that occurs when attempting to combine arrays of different types using the spread syntax.  The function `combineArrays` is explicitly typed to only accept number arrays; passing it a string array results in a compile-time error.  The solution involves using type guards or generics to handle arrays of different types.
